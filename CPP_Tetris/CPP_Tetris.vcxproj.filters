@@ -19,5 +19,60 @@
     <Filter Include="소스 파일\Func">
       <UniqueIdentifier>{b9ed9199-5335-424a-a7c2-8b74632f0e30}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{6c536efc-0380-4845-8c56-cd5ff477dd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Class">
+      <UniqueIdentifier>{b69aaa11-6da1-4a38-a650-ff06bad451a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Func">
+      <UniqueIdentifier>{a2b255c7-af4a-4bd6-9c9b-00ff83d313e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Header">
+      <UniqueIdentifier>{e35b5ec8-a28b-4f97-b2b4-af617d970ce0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TetrisCommonDelc.h">
+      <Filter>헤더 파일\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockArr.h">
+      <Filter>헤더 파일\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFunc.h">
+      <Filter>헤더 파일\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>헤더 파일\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockController.h">
+      <Filter>헤더 파일\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisController.h">
+      <Filter>헤더 파일\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisMenu.h">
+      <Filter>헤더 파일\Class</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GmaeFunc.cpp">
+      <Filter>소스 파일\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisMain.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisMenu.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisController.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockController.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
