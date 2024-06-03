@@ -1,5 +1,5 @@
 /*
-	파일 이름: TetrisCommonDelc.h
+	파일 이름: TetrisCommonDecl.h
 	파일 설명
 		- 공통 헤더 선언
 		- 상수 선언
